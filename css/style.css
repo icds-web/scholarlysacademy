@@ -779,6 +779,12 @@ padding: 20px 0;
 	margin-top: 150px;
 }
 
+
+.spcae p{
+	font-size: 40px;
+	margin-top: 30px;
+}
+
 h1 span,
 h2 span,
 h3 span,
@@ -1167,7 +1173,7 @@ form#commentform textarea {
 
 #call-to-action-2 {
 	background-color: #f0c929;
-	padding: 50px 0;
+	padding: 20px 0;
 }
 #call-to-action-2 h2 {
 	color: #bb2205;
@@ -1196,7 +1202,7 @@ form#commentform textarea {
 }
 section.section-padding.gray-bg {
     background: #f0c929;
-    padding: 60px;
+    padding: 20px;
     color: #ffffff;
 }
  section.section-padding.gray-bg h2 {
@@ -1304,7 +1310,7 @@ blockquote cite a:visited 				{ color:#555; }
 }
 
 /* --- button --- */
-.btn{text-align: center;color: #FFFFFF;padding: 12px 25px;border-radius: 0;background: #ef801a;border-color: #ef801a;}
+.btn{text-align: center;color: #FFFFFF;padding: 12px 25px;border-radius: 0;background: #bb2205;border-color: #bb2205;}
 .btn-theme {
 	color: #fff;
 	background: transparent;
@@ -1377,8 +1383,8 @@ footer .widgetheading {
 	position: relative;
 }
 
-footer .widget .social-network {
-	position:relative;
+footer .widget .social-network li{
+	text-align: center;
 }
 
 .team-member h4{
@@ -1678,15 +1684,20 @@ ul.social-network {
 }
 
 ul.social-network li {
-	display:inline;
-	margin: 0 5px;
+  background-color: none;
+  margin-left: -20px;
+	margin-right: 300px;
 	border: 1px solid #2D2D2D;
-	padding: 5px 0 0;
+
 	width: 32px;
 	display: inline-block;
 	text-align: center;
 	height: 32px;
-	vertical-align: baseline;
+
+}
+
+ul.social-network li:hover {
+	background-color: #f0c929;
 }
 
 #sub-footer{
@@ -1725,7 +1736,7 @@ ul.social-network li {
     height:32px;
     bottom:0px;
     right:20px;
-    background: #ef801a;
+    background: #bb2205;
 }
 
 a.scrollup {
@@ -1853,8 +1864,8 @@ article img.pull-right, article .align-right{
 .btn:hover, .btn:focus {
   color: #FFF;
   text-decoration: none;
-  background: #000000;
-  border-color: #000000;
+  background: #f0c929;
+  border-color: #f0c929;
 }
 /*  Media queries
 ============================= */
